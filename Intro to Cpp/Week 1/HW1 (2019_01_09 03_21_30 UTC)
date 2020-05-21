@@ -1,0 +1,32 @@
+/**
+
+A C++ program that inputs a string, integer, and float type and then outputs the values
+
+*/
+
+# include <iostream>
+
+using namespace std;
+
+int main()
+{
+	string inputString;
+	int inputInteger;
+	float inputFloat;
+	
+	cout << endl << "Please enter a string: ";
+	cin >> inputString;
+	
+	cout << endl << "Please enter an integer: ";
+	cin >> inputInteger;
+	
+	cout << endl << "Please enter a float: ";
+	cin >> inputFloat;
+	
+	cout << endl;
+	cout << inputString << endl;
+	cout << inputInteger << endl;
+	cout << inputFloat << endl;
+	
+	return 0;
+}
